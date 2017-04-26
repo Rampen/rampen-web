@@ -1,0 +1,44 @@
+//
+// VARIABLES
+//-----------------------------------------------------------------------
+
+
+// Colors
+// -------------------------
+
+$black:                     #252525;
+$white:                     #fff;
+$turquoise:                 #00b3b7;
+$magenta:                   #d8229d;
+$green:                     #10b00d;
+$blue:                      #0957c3;
+$yellow:                    #ff8f1c;
+
+$link-color:                $turquoise;
+$link-highlight-color:      darken($turquoise, 5%);
+
+$text-color:                $black;
+$text-inverted-color:       $white;
+
+
+// Typography
+// -------------------------
+
+$font-regular:              "Karmilla", "Helvetica Neue", Helvetica, sans-serif;
+$font-serif:                Georgia, "Times New Roman", serif;
+
+
+// Z-index
+// -------------------------
+
+$about__close-z:            1010;
+$about-z:                   1000;
+$about-open-z:              990;
+
+
+// Breakpoints
+// -------------------------
+
+$medium:                    "only screen and (min-width : 48rem)";
+$large:                     "only screen and (min-width : 65rem)";
+$xlarge:                    "only screen and (min-width : 75rem)";

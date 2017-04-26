@@ -1,0 +1,68 @@
+//
+// SECTION
+//-----------------------------------------------------------------------
+
+.section {
+  padding: 7rem 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  & + & {
+    border-top: 4px solid white;
+  }
+}
+
+
+// Descendants
+// -------------------------
+
+.section__header {
+  text-align: center;
+  margin-bottom: 3rem;
+
+  > h1,
+  > h2,
+  > h3 {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: bold;
+    border-bottom: 4px solid currentColor;
+  }
+}
+
+
+// Modifiers
+// -------------------------
+
+.section--inverted {
+  color: white;
+
+  a {
+    color: white;
+
+    &:hover, &:focus {
+      color: white;
+    }
+  }
+}
+
+.section--turquoise {
+  background-color: $turquoise;
+}
+
+.section--magenta {
+  background-color: $magenta;
+}
+
+.section--black {
+  background-color: $black;
+}
+
+.section--blue {
+  background-color: $blue;
+}
+
+.section--yellow {
+  background-color: $yellow;
+}

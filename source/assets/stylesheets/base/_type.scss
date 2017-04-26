@@ -1,0 +1,76 @@
+//
+// TYPE
+//-----------------------------------------------------------------------
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
+}
+
+body {
+  font-family: $font-regular;
+  line-height: 1.5;
+}
+
+
+// Headings
+// -------------------------
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+
+}
+
+// Paragraphs
+// -------------------------
+
+p {
+  font-size: 1.25rem;
+
+  & + & {
+    margin-top: 2rem;
+  }
+}
+
+// Links
+// -------------------------
+
+a {
+  color: $link-color;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    color: $link-highlight-color;
+    text-decoration: underline;
+  }
+}
+
+
+// Lists
+// -------------------------
+
+ul, ol {
+  list-style: none;
+}
+
+.inline-list {
+  > li {
+    display: inline-block;
+    margin-right: 0.3rem;
+  }
+}
+
+
+//
+// MEDIA QUERIES
+//-----------------------------------------------------------------------
+
+
+@media #{$medium} {
+
+}

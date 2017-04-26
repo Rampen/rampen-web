@@ -1,0 +1,60 @@
+//
+// NAVIGATION
+//-----------------------------------------------------------------------
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation__menu {
+  > li {
+    display: inline-block;
+
+    & + li {
+      margin-left: 1rem;
+    }
+  }
+}
+
+.navigation--collapse .navigation__menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation--collapse .navigation__menu li {
+  // width: 100%;
+  // display: block;
+}
+
+.js .navigation--collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.navigation--collapse.opened {
+  max-height: 9999px;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+@media #{$medium} {
+  .js .navigation--collapse {
+    position: relative;
+  }
+  .js .navigation--collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}

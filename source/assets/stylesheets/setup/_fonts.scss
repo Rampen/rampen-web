@@ -1,0 +1,21 @@
+//
+// FONTS
+//-----------------------------------------------------------------------
+
+@font-face {
+  font-family: 'Karmilla';
+  src: font-url('karmilla-regular-016-webfont.woff2') format('woff2'),
+       font-url('karmilla-regular-016-webfont.woff') format('woff'),
+       font-url('karmilla-regular-016-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Karmilla';
+  src: font-url('karmilla-bold-016-webfont.woff2') format('woff2'),
+       font-url('karmilla-bold-016-webfont.woff') format('woff'),
+       font-url('karmilla-bold-016-webfont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

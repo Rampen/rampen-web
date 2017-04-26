@@ -1,0 +1,21 @@
+//
+// BOX
+//-----------------------------------------------------------------------
+
+.box {
+  background-color: white;
+  padding: 2rem;
+}
+
+
+// Modifiers
+// -------------------------
+
+.box--inverted {
+  background-color: $black;
+  color: white;
+}
+
+.box--blue {
+  background-color: $blue;
+}
