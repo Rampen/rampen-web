@@ -13,9 +13,34 @@
   text-align: right;
 }
 
+.u-text-large {
+  font-size: 1.25rem;
+}
+
+.u-text-xlarge {
+  font-size: 1.75rem;
+  line-height: 1.3;
+}
+
 .u-text-strong {
   font-weight: bold;
+}
+
+.u-text-loud {
+  font-weight: bold;
   font-size: 1.625rem;
+  line-height: 1.4;
+}
+
+.u-text-boxed {
+  display: inline-block;
+  background-color: white;
+  color: $text-color;
+  padding: 0.5em 0.75em;
+}
+
+.u-text-blue {
+  color: $blue;
 }
 
 
@@ -39,6 +64,10 @@
 
 .u-margin-bottom {
   margin-bottom: 2rem;
+}
+
+.u-margin-bottom-s {
+  margin-bottom: 1rem;
 }
 
 

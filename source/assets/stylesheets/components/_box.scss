@@ -4,7 +4,9 @@
 
 .box {
   background-color: white;
-  padding: 2rem;
+  padding: 1.75rem 2rem 2rem;
+  color: $text-color;
+  text-align: left;
 }
 
 
@@ -13,7 +15,7 @@
 
 .box--inverted {
   background-color: $black;
-  color: white;
+  color: $text-inverted-color;
 }
 
 .box--blue {
