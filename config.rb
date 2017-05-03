@@ -5,6 +5,11 @@ activate :autoprefixer do |prefix|
   prefix.browsers = ['last 3 versions', 'Explorer >= 9']
 end
 
+activate :middleman_scavenger do |config|
+  config.path = "./source/assets/images/icons/"
+  config.sprite_path = "assets/images/sprite.svg"
+end
+
 config[:js_dir] =     'assets/javascripts'
 config[:css_dir] =    'assets/stylesheets'
 config[:images_dir] = 'assets/images'
