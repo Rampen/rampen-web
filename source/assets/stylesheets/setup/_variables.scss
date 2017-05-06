@@ -13,12 +13,17 @@ $magenta:                   #d8229d;
 $green:                     #10b00d;
 $blue:                      #0957c3;
 $yellow:                    #ff8f1c;
+$red:                       #ff2727;
+$red--light:                #ffd1d1;
 
 $link-color:                $turquoise;
 $link-highlight-color:      darken($turquoise, 5%);
 
 $text-color:                $black;
 $text-inverted-color:       $white;
+$text-warning-color:        $red;
+
+$warning-bg-color:          $red--light;
 
 
 // Typography

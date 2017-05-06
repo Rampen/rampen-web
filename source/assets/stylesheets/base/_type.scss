@@ -13,6 +13,14 @@ body {
 }
 
 
+// Styles
+// -------------------------
+
+strong {
+  font-weight: bold;
+}
+
+
 // Headings
 // -------------------------
 
@@ -47,17 +55,18 @@ p {
   }
 }
 
+
 // Links
 // -------------------------
 
 a {
   color: $link-color;
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: underline;
 
   &:hover, &:focus {
     color: $link-highlight-color;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 

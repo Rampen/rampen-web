@@ -1,0 +1,16 @@
+//
+// MEDIA
+//-----------------------------------------------------------------------
+
+.media {
+  display: flex !important;
+}
+
+.media__img {
+  flex-shrink: 0;
+  margin-right: 0.3rem;
+}
+
+.media__body {
+  flex: 1;
+}

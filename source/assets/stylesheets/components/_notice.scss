@@ -1,0 +1,21 @@
+//
+// NOTICE
+//-----------------------------------------------------------------------
+
+.notice {
+  display: block;
+  padding: 1.5rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+  border-left: 4px solid $black;
+}
+
+.notice--inverted {
+  background-color: white;
+  color: $text-color;
+}
+
+.notice--warning {
+  color: $text-warning-color;
+  border-left-color: $red;
+}

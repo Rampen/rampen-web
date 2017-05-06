@@ -5,6 +5,14 @@
 .navigation {
   display: flex;
   justify-content: flex-end;
+
+  a {
+    text-decoration: none;
+
+    &:hover, &:focus {
+      text-decoration: underline;
+    }
+  }
 }
 
 .navigation__menu {
