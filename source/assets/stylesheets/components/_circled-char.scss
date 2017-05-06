@@ -1,0 +1,15 @@
+//
+// CIRCLED CHAR
+//-----------------------------------------------------------------------
+
+.circled-char {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.75rem;
+  height: 4.75rem;
+  border: 4px solid currentColor;
+  border-radius: 100%;
+  font-size: 3rem;
+  font-weight: bold;
+}

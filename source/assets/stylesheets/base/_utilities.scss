@@ -43,9 +43,15 @@
   color: $blue;
 }
 
+.u-text-yellow {
+  color: $yellow;
+}
+
 .u-text-warning {
   color: $text-warning-color;
 }
+
+
 
 
 // Alignment
@@ -66,12 +72,28 @@
   margin-top: 2rem;
 }
 
+.u-margin-top-s {
+  margin-top: 1rem;
+}
+
+.u-margin-top-l {
+  margin-top: 4rem;
+}
+
+.u-margin-top-xl {
+  margin-top: 6rem;
+}
+
 .u-margin-bottom {
   margin-bottom: 2rem;
 }
 
 .u-margin-bottom-s {
   margin-bottom: 1rem;
+}
+
+.u-margin-right {
+  margin-right: 2rem;
 }
 
 
